@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/reveal.js/dist/theme/white.css"
+    />
+
+    <style>
+      html {
+        font-size: 70px;
+      }
+
+      h1 {
+        font-size: 2rem !important;
+      }
+
+      h2 {
+        font-size: 1.5rem !important;
+      }
+
+      h3 {
+        font-size: 1.17rem !important;
+      }
+
+      p {
+        font-size: 1rem !important;
+      }
+    </style>
+
+    <title>NTG</title>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <span>
+            <img src="FHLogo.png" style="width: 8rem" />
+          </span>
+
+          <p>presents</p>
+          <h3>Nerds: the Gathering</h3>
+        </section>
+
+        <section>
+          <p>Video series centered around open source software</p>
+          <p>4 shorts, 2 long</p>
+          <br />
+
+          <img src="OSI.svg" style="width: 2.2rem" />
+        </section>
+
+        <section>
+          <h2>Open source?</h2>
+          <p>Software that <i>you</i> can modify and <i>own</i></p>
+          <br />
+
+          <img src="gnu.svg" style="width: 3rem" />
+          <img src="Tux.svg" style="width: 3rem" />
+          <img src="Firefox.svg" style="width: 3rem" />
+        </section>
+
+        <section>
+          <h2>What do you get from this?</h2>
+          <p>Knowledge and fun 😃</p>
+          <p>Always good for your CV</p>
+        </section>
+
+        <section>
+          <h2>Scan the QR codes!</h2>
+
+          <div style="display: flex; justify-content: center">
+            <div>
+              <img src="qr.svg" style="width: 10rem" />
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 1em;
+                "
+              >
+                <span><img src="youtube.png" style="width: 2rem" /></span>
+                <p>YouTube</p>
+              </div>
+            </div>
+
+            <div>
+              <img src="tiktok.svg" style="width: 10rem" />
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 1em;
+                "
+              >
+                <span
+                  ><img
+                    style="border-radius: 9999999px; width: 2rem"
+                    src="tiktokicon.png"
+                /></span>
+                <p>TikTok</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="/node_modules/reveal.js/dist/reveal.js"></script>
+
+    <script>
+      let deck = new Reveal({
+        width: 1920,
+        height: 1080,
+        hash: true,
+        transition: "none",
+      });
+
+      deck.initialize();
+    </script>
+  </body>
+</html>
