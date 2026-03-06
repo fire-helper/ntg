@@ -273,10 +273,10 @@
           <img src="icons/new_pr.png" width="300px" />
         </section>
 
-        <section>
-          <h3>Many people work together</h3>
-          <img src="icons/contributors.png" width="500px" />
-        </section>
+        <!-- <section> -->
+        <!-- <h3>Many people work together</h3> -->
+        <!-- <img src="icons/contributors.png" width="500px" /> -->
+        <!-- </section> -->
 
         <section>
           <h3>Proprietary software</h3>
@@ -285,8 +285,46 @@
             <li>Developed/maintained by who?</li>
             <li>What if the company goes bankrupt?</li>
             <li>What if it gets abandoned?</li>
-            <li>Vendor lock-in?</li>
+            <li>What if you want to switch?</li>
+            <li>What if you don't like something about it?</li>
           </ul>
+        </section>
+
+        <section>
+          <img
+            src="icons/copyright.svg"
+            style="filter: invert(100%)"
+            width="150px"
+          />
+
+          <div
+            style="
+              margin: auto;
+              padding: 20px;
+              width: fit-content;
+              border: 0.5rem solid #0f01;
+              background: #0f02;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <img
+              src="icons/hand_coins.svg"
+              style="filter: invert(100%)"
+              width="256px"
+            />
+            <p>Your work</p>
+          </div>
+
+          <p style="margin-top: 2rem">Copyrighted by default</p>
+
+          <h4 class="fragment">No one can use it</h4>
+        </section>
+
+        <section>
+          <h3>The solution: licenses</h3>
         </section>
 
         <section>
@@ -301,19 +339,54 @@
             <div>
               <h3>Permissive</h3>
               <ul>
-                <li>Can relicense</li>
-                <li>Modifications can be different license</li>
+                <li class="fragment" data-fragment-index="1">Can relicense</li>
+                <li class="fragment" data-fragment-index="3">
+                  Modifications can be different license
+                </li>
+                <li class="fragment" data-fragment-index="5">
+                  Minimal obligations
+                </li>
               </ul>
+              <p class="fragment">MIT, BSD, ISC, etc.</p>
             </div>
 
             <div>
               <h3>Copyleft</h3>
               <ul>
-                <li><b>Cannot</b> relicense</li>
-                <li>Modifications must be same license</li>
+                <li class="fragment" data-fragment-index="2">
+                  <b>Cannot</b> relicense
+                </li>
+                <li class="fragment" data-fragment-index="4">
+                  Modifications must be same license
+                </li>
+                <li class="fragment" data-fragment-index="6">
+                  More obligations (must release source code, etc.)
+                </li>
               </ul>
+              <p class="fragment">GPL, AGPL, MPL, etc.</p>
             </div>
           </div>
+        </section>
+
+        <section data-auto-animate>
+          <img src="icons/dependency.png" height="1000px" />
+        </section>
+
+        <section data-auto-animate>
+          <img src="icons/dependency.png" width="500px" />
+          <p>Open-source is volunteer work</p>
+          <p class="fragment">Companies make billions off of free work</p>
+        </section>
+
+        <section>
+          <h3>How to help</h3>
+          <ul>
+            <li class="fragment">Write code</li>
+            <li class="fragment">Fix typos</li>
+            <li class="fragment">Spread the word</li>
+            <li class="fragment">Donate money</li>
+            <li class="fragment"><b>Start using open-source</b></li>
+          </ul>
         </section>
       </div>
     </div>
