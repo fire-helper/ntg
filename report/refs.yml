@@ -1,0 +1,32 @@
+opensourcefriday:
+  type: web
+  title: Open Source Friday
+  author: GitHub
+  url:
+    value: https://opensourcefriday.com
+    date: 2026-03-19
+  language: en
+
+catb:
+  type: book
+  title: The {Cathedral} and the {Bazaar}
+  author: Raymond, Eric S.
+  date: 1999
+  publisher: O'Reilly Media
+  url: https://books.google.com/books/about/The_Cathedral_and_the_Bazaar.html?hl=&id=o40ZAQAAIAAJ
+
+Liu2010:
+  type: article
+  title: Social Media Tools as a Learning Resource
+  author: Liu, Youmei
+  date: 2010-06
+  url: http://dx.doi.org/10.18785/jetde.0301.08
+  serial-number:
+    doi: 10.18785/jetde.0301.08
+    issn: 1941-8035
+  parent:
+    type: periodical
+    title: Journal of Educational Technology Development and Exchange
+    publisher: University of Southern Mississippi
+    issue: 1
+    volume: 3
